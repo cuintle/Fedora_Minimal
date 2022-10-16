@@ -6,6 +6,8 @@
 <p align="center">⚠️⚠️⚠️ <b>BE CAREFUL</b> ⚠️⚠️⚠️</p>
 <p align="center">This kickstart file reflects very much <b>my own personal taste</b>, so be aware of that and <b>use it at your own risk</b>.</p>  
 
+<br/>
+
 > **Warning:**  
     - This is **NOT** a ready-to-use installation file. **It needs some editing to fit your needs**.  
     - This kickstart file is  intended to be used to install a **full flatpak system** (per-user flatpaks)  
