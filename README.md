@@ -6,8 +6,6 @@
 <p align="center">⚠️⚠️⚠️ <b>BE CAREFUL</b> ⚠️⚠️⚠️</p>
 <p align="center">This kickstart file reflects very much <b>my own personal taste</b>, so be aware of that and <b>use it at your own risk</b>.</p>  
 
-<br/>
-
 > **Warning:**  
     - This is **NOT** a ready-to-use installation file. **It needs some editing to fit your needs**.  
     - This kickstart file is  intended to be used to install a **full flatpak system** (per-user flatpaks)  
@@ -85,11 +83,12 @@ After installation process, run system installed on fedora_ks.qcow2 file.
 
 ```bash
 $ virt-install --name Fedora_Minimal \
---memory 4092 --cpu host --vcpus 2 \
+--memory 4092 --cpu host --vcpus 2 --import \
 --disk fedora_ks.qcow2 --video virtio \
 --virt-type kvm --boot uefi --transient \
 --destroy-on-exit --osinfo detect=on,require=off
 ```
+
 
 ## License  
 
