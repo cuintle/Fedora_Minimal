@@ -89,6 +89,13 @@ $ virt-install --name Fedora_Minimal \
 --destroy-on-exit --osinfo detect=on,require=off
 ```
 
+## TESTED
+
+|**Version**|Teste Kickstart version|Bare Metal|Virtual Machine|Solution| Explanation|
+|:----:|:----:|:----:|:-----:|:----:|:----:|
+| ✔️**Fedora 37 Beta** | ✔️Minimal <br/>✔️Foss |  ✔️   |  ❌  |  install `gnome-session-xsession` package|  Only X11 session is working **on virtual-machine**, probably a DRM driver issue.|
+| ✔️**Fedora 36** |  ✔️Minimal <br/>✔️Foss  |   ✔️    |  ✔️   |  N/A | N/A  |
+
 
 ## License  
 
